@@ -22,5 +22,12 @@ chicago.csv - Dataset containing bike-sharing information for Chicago.
 new_york_city.csv - Dataset containing bike-sharing information for New York City.
 washington.csv - Dataset containing bike-sharing information for Washington (Note: This dataset does not include 'Gender' or 'Birth Year' data).
 
+### How to run
+To use this project, follow these steps:
+
+Place the bikeshare.py file and all the CSV data files (chicago.csv, new_york_city.csv, washington.csv) in the same folder.
+Run the bikeshare.py file using a suitable Python interpreter(Python 3.6 or later) or command prompt with this command: python bikeshare.py 
+Libraries used in this project include: Pandas, NumPy, Time
+
 ### Credits
 Udacity - Guidance and support from Udacity's Data Analyst Nanodegree program and instructors.

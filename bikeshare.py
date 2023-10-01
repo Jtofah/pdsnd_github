@@ -73,7 +73,7 @@ def load_data(city, month, day):
     # Apply filters based on user input for month and day
     if month != 'all':
         months = ['january', 'february', 'march', 'april', 'may', 'june']
-        df = df[df['Month'] == month]
+        df = df[df['Month'] == month.title()]
 
     if day != 'all':
         df = df[df['Day of Week'] == day.title()]

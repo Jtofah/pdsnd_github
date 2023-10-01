@@ -18,9 +18,9 @@ Finally, the user has the choice to restart the program or exit.
 
 
 ### Files used
-chicago.csv 
-new_york_city.csv
-washington.csv 
+chicago.csv - Dataset containing bike-sharing information for Chicago.
+new_york_city.csv - Dataset containing bike-sharing information for New York City.
+washington.csv - Dataset containing bike-sharing information for Washington (Note: This dataset does not include 'Gender' or 'Birth Year' data).
 
 ### Credits
 Udacity - Guidance and support from Udacity's Data Analyst Nanodegree program and instructors.

@@ -67,14 +67,13 @@ def load_data(city, month, day):
 
     # Extract month and day of the week from 'Start Time'
     df['Start Time'] = pd.to_datetime(df['Start Time'])
-    df['Month'] = df['Start Time'].dt.month
+    df['Month'] = df['Start Time'].dt.month_name()
     df['Day of Week'] = df['Start Time'].dt.day_name()
 
     # Apply filters based on user input for month and day
     if month != 'all':
         months = ['january', 'february', 'march', 'april', 'may', 'june']
-        month = months.index(month) + 1
-        df = df[df['Month'] == month]
+        df = df[df['Month'] == month.title()]
 
     if day != 'all':
         df = df[df['Day of Week'] == day.title()]
